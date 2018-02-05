@@ -104,6 +104,11 @@ deathStar = (capacity, crew) => {
 // The closure function will take in a parameter: liabilities (Number)
 // The closure function will return the combined value of assets and liabilities.
 
+function accountingOffice(assets) {
+  liabilities => {
+    return assets + liabilities;
+  };
+}
 // CODE HERE...
 
 // *************
@@ -128,6 +133,10 @@ deathStar = (capacity, crew) => {
 // };
 
 // CODE HERE...
+
+forgetter = name => {
+  return (rememberall = item => {});
+};
 
 // *************
 // * PROBLEM 6 *
